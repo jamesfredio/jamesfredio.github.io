@@ -1,26 +1,38 @@
+/* Base page setup */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   background-color: #f5f7fa;
   margin: 0;
   color: #1a1a1a;
+
+  display: flex;
+  justify-content: center;   /* horizontal centering */
+  align-items: center;       /* vertical centering */
+  min-height: 100vh;
 }
 
+/* Main content container */
 main {
   max-width: 720px;
-  margin: 60px auto;
+  width: 100%;
+  margin: 20px;
   padding: 40px;
+
   background: white;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+
+  text-align: center;
 }
 
+/* Navigation */
 nav {
   margin-bottom: 40px;
 }
 
 nav a {
   text-decoration: none;
-  margin-right: 20px;
+  margin: 0 15px;
   color: #555;
   font-weight: 500;
 }
@@ -29,12 +41,19 @@ nav a:hover {
   color: #000;
 }
 
+/* Headings */
 h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
 
+/* Paragraphs */
 p {
   font-size: 1.15rem;
   color: #555;
+}
+
+/* Sections (blog + portfolio spacing) */
+section, article {
+  margin-bottom: 30px;
 }
