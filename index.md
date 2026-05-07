@@ -8,7 +8,7 @@ title: Home
 
 <nav>
   <a href="/">Home</a>
-  <a href="/blog/">Blog</a>
+  <!-- <a href="/blog/">Blog</a>
   <a href="/portfolio/">Portfolio</a>
-  <a href="/_posts/_posts/">Posts</a>
+  <a href="/_posts/_posts/">Posts</a> -->
 </nav>
