@@ -3,8 +3,8 @@ layout: default
 title: Home
 ---
 
-<h1>James Frederick</h1>
-<p>I write about AI, data, and technology.</p>
+<h1>I write about AI, data, and technology.</h1>
+<p>test</p>
 
 <nav>
   <a href="/">Home</a>
