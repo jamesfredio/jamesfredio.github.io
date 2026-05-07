@@ -1,7 +1,7 @@
-title: jamesfredio
+title: James Frederick
 description: Tech, AI, and Data blog
 
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
   - jekyll-remote-theme
